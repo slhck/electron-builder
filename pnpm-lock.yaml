@@ -42,8 +42,8 @@ importers:
         specifier: 2.2.2
         version: 2.2.2
       dmd:
-        specifier: 6.1.0
-        version: 6.1.0
+        specifier: 6.2.0
+        version: 6.2.0
       eslint:
         specifier: ^8.56.0
         version: 8.57.0
@@ -5565,24 +5565,6 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       path-type: 4.0.0
-    dev: true
-
-  /dmd@6.1.0:
-    resolution: {integrity: sha512-0zQIJ873gay1scCTFZvHPWM9mVJBnaylB2NQDI8O9u8O32m00Jb6uxDKexZm8hjTRM7RiWe0FJ32pExHoXdwoQ==}
-    engines: {node: '>=12'}
-    dependencies:
-      array-back: 6.2.2
-      cache-point: 2.0.0
-      common-sequence: 2.0.2
-      file-set: 4.0.2
-      handlebars: 4.7.8
-      marked: 4.3.0
-      object-get: 2.1.1
-      reduce-flatten: 3.0.1
-      reduce-unique: 2.0.1
-      reduce-without: 1.0.1
-      test-value: 3.0.0
-      walk-back: 5.1.0
     dev: true
 
   /dmd@6.2.0:
