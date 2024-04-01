@@ -250,8 +250,8 @@ importers:
         specifier: 3.1.0
         version: 3.1.0
       '@types/hosted-git-info':
-        specifier: 3.0.2
-        version: 3.0.2
+        specifier: 3.0.5
+        version: 3.0.5
       '@types/is-ci':
         specifier: 3.0.0
         version: 3.0.0
@@ -3025,8 +3025,8 @@ packages:
     dependencies:
       '@types/node': 16.18.55
 
-  /@types/hosted-git-info@3.0.2:
-    resolution: {integrity: sha512-RURNTeEFUwF+ifnp7kK3WLLlTmBSlRynLNS9jeAsI6RHtSrupV0l0nO6kmpaz75EUJVexy348bR452SvmH98vQ==}
+  /@types/hosted-git-info@3.0.5:
+    resolution: {integrity: sha512-Dmngh7U003cOHPhKGyA7LWqrnvcTyILNgNPmNCxlx7j8MIi54iBliiT8XqVLIQ3GchoOjVAyBzNJVyuaJjqokg==}
     dev: true
 
   /@types/http-cache-semantics@4.0.4:
@@ -10235,6 +10235,7 @@ packages:
   /slice-ansi@3.0.0:
     resolution: {integrity: sha512-pSyv7bSTC7ig9Dcgbw9AuRNUb5k5V6oDudjZoMBSr13qpLBG7tB+zgCkARjq7xIUgdz5P1Qe8u+rSGdouOOIyQ==}
     engines: {node: '>=8'}
+    requiresBuild: true
     dependencies:
       ansi-styles: 4.3.0
       astral-regex: 2.0.0
