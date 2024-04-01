@@ -351,8 +351,8 @@ importers:
         specifier: 4.1.7
         version: 4.1.7
       '@types/sax':
-        specifier: 1.2.3
-        version: 1.2.3
+        specifier: 1.2.7
+        version: 1.2.7
 
   packages/dmg-builder:
     dependencies:
@@ -3158,8 +3158,8 @@ packages:
       '@types/node': 16.18.55
     dev: false
 
-  /@types/sax@1.2.3:
-    resolution: {integrity: sha512-+QSw6Tqvs/KQpZX8DvIl3hZSjNFLW/OqE5nlyHXtTwODaJvioN2rOWpBNEWZp2HZUFhOh+VohmJku/WxEXU2XA==}
+  /@types/sax@1.2.7:
+    resolution: {integrity: sha512-rO73L89PJxeYM3s3pPPjiPgVVcymqU490g0YO5n5By0k2Erzj6tay/4lr1CHAAU4JyOWd1rpQ8bCf6cZfHU96A==}
     dependencies:
       '@types/node': 16.18.55
     dev: true
@@ -10235,6 +10235,7 @@ packages:
   /slice-ansi@3.0.0:
     resolution: {integrity: sha512-pSyv7bSTC7ig9Dcgbw9AuRNUb5k5V6oDudjZoMBSr13qpLBG7tB+zgCkARjq7xIUgdz5P1Qe8u+rSGdouOOIyQ==}
     engines: {node: '>=8'}
+    requiresBuild: true
     dependencies:
       ansi-styles: 4.3.0
       astral-regex: 2.0.0
