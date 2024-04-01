@@ -247,8 +247,8 @@ importers:
         specifier: 4.1.7
         version: 4.1.7
       '@types/ejs':
-        specifier: 3.1.0
-        version: 3.1.0
+        specifier: 3.1.5
+        version: 3.1.5
       '@types/hosted-git-info':
         specifier: 3.0.2
         version: 3.0.2
@@ -3004,8 +3004,8 @@ packages:
     dependencies:
       '@types/ms': 0.7.34
 
-  /@types/ejs@3.1.0:
-    resolution: {integrity: sha512-DCg+Ka+uDQ31lJ/UtEXVlaeV3d6t81gifaVWKJy4MYVVgvJttyX/viREy+If7fz+tK/gVxTGMtyrFPnm4gjrVA==}
+  /@types/ejs@3.1.5:
+    resolution: {integrity: sha512-nv+GSx77ZtXiJzwKdsASqi+YQ5Z7vwHsTP0JY2SiQgjGckkBRKZnk8nIM+7oUZ1VCtuTz0+By4qVR7fqzp/Dfg==}
     dev: true
 
   /@types/fs-extra@9.0.13:
@@ -10235,6 +10235,7 @@ packages:
   /slice-ansi@3.0.0:
     resolution: {integrity: sha512-pSyv7bSTC7ig9Dcgbw9AuRNUb5k5V6oDudjZoMBSr13qpLBG7tB+zgCkARjq7xIUgdz5P1Qe8u+rSGdouOOIyQ==}
     engines: {node: '>=8'}
+    requiresBuild: true
     dependencies:
       ansi-styles: 4.3.0
       astral-regex: 2.0.0
