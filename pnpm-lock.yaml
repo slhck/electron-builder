@@ -168,8 +168,8 @@ importers:
         specifier: ^1.0.5
         version: 1.0.5
       minimatch:
-        specifier: ^5.1.1
-        version: 5.1.6
+        specifier: ^9.0.0
+        version: 9.0.3
       read-config-file:
         specifier: 6.3.2
         version: 6.3.2
