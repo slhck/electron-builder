@@ -60,8 +60,8 @@ importers:
         specifier: 11.1.0
         version: 11.1.0
       husky:
-        specifier: 7.0.4
-        version: 7.0.4
+        specifier: 9.0.11
+        version: 9.0.11
       jest-cli:
         specifier: 27.5.1
         version: 27.5.1
@@ -6852,9 +6852,9 @@ packages:
       ms: 2.1.2
     dev: false
 
-  /husky@7.0.4:
-    resolution: {integrity: sha512-vbaCKN2QLtP/vD4yvs6iz6hBEo6wkSzs8HpRah1Z6aGmF2KW5PdYuAd7uX5a+OyBZHBhd+TFLqgjUgytQr4RvQ==}
-    engines: {node: '>=12'}
+  /husky@9.0.11:
+    resolution: {integrity: sha512-AB6lFlbwwyIqMdHYhwPe+kjOC3Oc5P3nThEoW/AaO2BX3vJDjWPFxYLxokUZOo6RNX20He3AaT8sESs9NJcmEw==}
+    engines: {node: '>=18'}
     hasBin: true
     dev: true
 
@@ -10235,6 +10235,7 @@ packages:
   /slice-ansi@3.0.0:
     resolution: {integrity: sha512-pSyv7bSTC7ig9Dcgbw9AuRNUb5k5V6oDudjZoMBSr13qpLBG7tB+zgCkARjq7xIUgdz5P1Qe8u+rSGdouOOIyQ==}
     engines: {node: '>=8'}
+    requiresBuild: true
     dependencies:
       ansi-styles: 4.3.0
       astral-regex: 2.0.0
