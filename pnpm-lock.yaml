@@ -451,8 +451,8 @@ importers:
         version: 10.1.0
     devDependencies:
       '@types/archiver':
-        specifier: 5.3.1
-        version: 5.3.1
+        specifier: 6.0.2
+        version: 6.0.2
       '@types/fs-extra':
         specifier: 9.0.13
         version: 9.0.13
@@ -2953,10 +2953,10 @@ packages:
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
     dev: true
 
-  /@types/archiver@5.3.1:
-    resolution: {integrity: sha512-wKYZaSXaDvTZuInAWjCeGG7BEAgTWG2zZW0/f7IYFcoHB2X2d9lkVFnrOlXl3W6NrvO6Ml3FLLu8Uksyymcpnw==}
+  /@types/archiver@6.0.2:
+    resolution: {integrity: sha512-KmROQqbQzKGuaAbmK+ZcytkJ51+YqDa7NmbXjmtC5YBLSyQYo21YaUnQ3HbaPFKL1ooo6RQ6OPYPIDyxfpDDXw==}
     dependencies:
-      '@types/glob': 8.1.0
+      '@types/readdir-glob': 1.1.5
     dev: true
 
   /@types/babel__core@7.20.5:
@@ -3012,13 +3012,6 @@ packages:
     resolution: {integrity: sha512-nEnwB++1u5lVDM2UI4c1+5R+FYaKfaAzS4OococimjVm3nQw3TuzH5UNsocrcTBbhnerblyHj4A49qXbIiZdpA==}
     dependencies:
       '@types/node': 16.18.55
-
-  /@types/glob@8.1.0:
-    resolution: {integrity: sha512-IO+MJPVhoqz+28h1qLAcBEH2+xHMK6MTyHJc7MTnnYb6wsoLR29POVGJ7LycmVXIqyy/4/2ShP5sUwTXuOwb/w==}
-    dependencies:
-      '@types/minimatch': 5.1.2
-      '@types/node': 16.18.55
-    dev: true
 
   /@types/graceful-fs@4.1.9:
     resolution: {integrity: sha512-olP3sd1qOEe5dXTSaFvQG+02VdRXcdytWLAZsAq1PecU8uqQAhkrnbli7DagjtXKW/Bl7YJbUsa8MPcuc8LHEQ==}
@@ -3116,10 +3109,6 @@ packages:
     resolution: {integrity: sha512-Klz949h02Gz2uZCMGwDUSDS1YBlTdDDgbWHi+81l29tQALUtvz4rAYi5uoVhE5Lagoq6DeqAUlbrHvW/mXDgdQ==}
     dev: false
 
-  /@types/minimatch@5.1.2:
-    resolution: {integrity: sha512-K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==}
-    dev: true
-
   /@types/minimist@1.2.5:
     resolution: {integrity: sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==}
     dev: true
@@ -3151,6 +3140,12 @@ packages:
 
   /@types/prettier@2.7.3:
     resolution: {integrity: sha512-+68kP9yzs4LMp7VNh8gdzMSPZFL44MLGqiHWvttYJe+6qnuVr4Ek9wSBQoveqY/r+LwjCcU29kNVkidwim+kYA==}
+
+  /@types/readdir-glob@1.1.5:
+    resolution: {integrity: sha512-raiuEPUYqXu+nvtY2Pe8s8FEmZ3x5yAH4VkLdihcPdalvsHltomrRC9BzuStrJ9yk06470hS0Crw0f1pXqD+Hg==}
+    dependencies:
+      '@types/node': 16.18.55
+    dev: true
 
   /@types/responselike@1.0.3:
     resolution: {integrity: sha512-H/+L+UkTV33uf49PH5pCAUBVPNj2nDBXTN+qS1dOwyyg24l3CcicicCA7ca+HMvJBZcFgl5r8e+RR6elsb4Lyw==}
