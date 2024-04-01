@@ -546,8 +546,8 @@ importers:
         specifier: 4.1.6
         version: 4.1.6
       '@types/lodash.isequal':
-        specifier: 4.5.5
-        version: 4.5.5
+        specifier: 4.5.8
+        version: 4.5.8
       '@types/semver':
         specifier: ^7.3.13
         version: 7.5.8
@@ -3083,8 +3083,8 @@ packages:
       '@types/lodash': 4.14.202
     dev: true
 
-  /@types/lodash.isequal@4.5.5:
-    resolution: {integrity: sha512-4IKbinG7MGP131wRfceK6W4E/Qt3qssEFLF30LnJbjYiSfHGGRU/Io8YxXrZX109ir+iDETC8hw8QsDijukUVg==}
+  /@types/lodash.isequal@4.5.8:
+    resolution: {integrity: sha512-uput6pg4E/tj2LGxCZo9+y27JNyB2OZuuI/T5F+ylVDYuqICLG2/ktjxx0v6GvVntAf8TvEzeQLcV0ffRirXuA==}
     dependencies:
       '@types/lodash': 4.14.202
     dev: true
