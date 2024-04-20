@@ -1,5 +1,14 @@
 # app-builder-lib
 
+## 25.0.0-alpha.7
+
+### Patch Changes
+
+- Updated dependencies [[`3ae3589a`](https://github.com/electron-userland/electron-builder/commit/3ae3589a63c2d915b8456d9dc81a965a1366c73b)]:
+  - electron-publish@25.0.0-alpha.7
+  - dmg-builder@25.0.0-alpha.7
+  - electron-builder-squirrel-windows@25.0.0-alpha.7
+
 ## 25.0.0-alpha.6
 
 ### Minor Changes

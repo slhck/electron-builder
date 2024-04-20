@@ -1,3 +1,12 @@
+# [](https://github.com/electron-userland/electron-builder/compare/v25.0.0-alpha.6...v) (2024-04-20)
+
+
+### Features
+
+* Add Support for a separate Github release token to the auto-update token ([#8173](https://github.com/electron-userland/electron-builder/issues/8173)) ([3ae3589](https://github.com/electron-userland/electron-builder/commit/3ae3589a63c2d915b8456d9dc81a965a1366c73b))
+
+
+
 # [](https://github.com/electron-userland/electron-builder/compare/v25.0.0-alpha.5...v) (2024-04-03)
 
 

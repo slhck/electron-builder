@@ -1,5 +1,13 @@
 # electron-builder
 
+## 25.0.0-alpha.7
+
+### Patch Changes
+
+- Updated dependencies []:
+  - app-builder-lib@25.0.0-alpha.7
+  - dmg-builder@25.0.0-alpha.7
+
 ## 25.0.0-alpha.6
 
 ### Minor Changes
